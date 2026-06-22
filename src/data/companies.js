@@ -1,0 +1,78 @@
+/**
+ * Top hiring companies (dummy/static data).
+ * `tags` describe the company type; `logo` uses Clearbit's public logo API.
+ */
+export const companies = [
+  {
+    id: 1,
+    name: "Google",
+    logo: "https://logo.clearbit.com/google.com",
+    rating: 4.5,
+    reviews: "25.1k",
+    openings: 120,
+    tags: ["MNC", "Internet"],
+  },
+  {
+    id: 2,
+    name: "Microsoft",
+    logo: "https://logo.clearbit.com/microsoft.com",
+    rating: 4.4,
+    reviews: "18.4k",
+    openings: 85,
+    tags: ["MNC", "Product"],
+  },
+  {
+    id: 3,
+    name: "Amazon",
+    logo: "https://logo.clearbit.com/amazon.com",
+    rating: 4.2,
+    reviews: "30.6k",
+    openings: 140,
+    tags: ["MNC", "E-commerce"],
+  },
+  {
+    id: 4,
+    name: "Adobe",
+    logo: "https://logo.clearbit.com/adobe.com",
+    rating: 4.6,
+    reviews: "12.0k",
+    openings: 65,
+    tags: ["MNC", "Software"],
+  },
+  {
+    id: 5,
+    name: "Infosys",
+    logo: "https://logo.clearbit.com/infosys.com",
+    rating: 4.1,
+    reviews: "50.2k",
+    openings: 200,
+    tags: ["Indian MNC", "IT Services"],
+  },
+  {
+    id: 6,
+    name: "Flipkart",
+    logo: "https://logo.clearbit.com/flipkart.com",
+    rating: 4.3,
+    reviews: "14.8k",
+    openings: 95,
+    tags: ["Unicorn", "E-commerce"],
+  },
+  {
+    id: 7,
+    name: "TCS",
+    logo: "https://logo.clearbit.com/tcs.com",
+    rating: 4.0,
+    reviews: "60.9k",
+    openings: 250,
+    tags: ["Indian MNC", "IT Services"],
+  },
+  {
+    id: 8,
+    name: "Swiggy",
+    logo: "https://logo.clearbit.com/swiggy.com",
+    rating: 4.2,
+    reviews: "9.3k",
+    openings: 70,
+    tags: ["Unicorn", "Food Tech"],
+  },
+];

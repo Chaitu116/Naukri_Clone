@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Design tokens — Naukri-faithful palette */
+@theme {
+  --color-brand: #0a66c2;
+  --color-brand-dark: #084e96;
+  --color-brand-light: #e7f0fa;
+  --color-ink: #1d2939;
+  --color-muted: #667085;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Safety net against any accidental horizontal scroll on small screens */
+  overflow-x: hidden;
+}
+
+/* Hide scrollbars on horizontal scroll rails (mobile chip rows / carousels) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
