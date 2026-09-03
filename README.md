@@ -8,6 +8,8 @@ and clean, maintainable code.
 
 **▶ Live demo: https://chaitu116.github.io/Naukri_Clone/**
 
+![Naukri homepage clone — hero, search bar and job categories](docs/screenshot.png)
+
 ## ✨ Features
 
 - **Fully responsive** — tested across mobile, tablet, and desktop breakpoints.
