@@ -6,6 +6,8 @@ A responsive homepage inspired by [Naukri.com](https://www.naukri.com/), built w
 Built as a frontend assignment to demonstrate component design, responsiveness,
 and clean, maintainable code.
 
+**▶ Live demo: https://chaitu116.github.io/Naukri_Clone/**
+
 ## ✨ Features
 
 - **Fully responsive** — tested across mobile, tablet, and desktop breakpoints.
@@ -107,3 +109,9 @@ src/
 
 `npm run build` produces a static bundle in `dist/`, deployable to any static
 host (Vercel, Netlify, GitHub Pages, etc.).
+
+This repo deploys itself to GitHub Pages on every push to `main` via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). Because Pages
+serves it from the `/Naukri_Clone/` subpath, `vite.config.js` sets `base` and
+`main.jsx` passes `basename` to `BrowserRouter` — both are needed for routing
+and assets to resolve there.
